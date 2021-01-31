@@ -1,0 +1,66 @@
+.modal {
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(8, 119, 67, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.modal-body{
+    padding:2rem;
+    width: 400px;
+    border-radius: 5px;
+    background: rgb(54, 124, 182);
+    height: 300px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+.inp1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.inp3{
+    margin-top: 10px;
+    margin-left: 53px;
+}
+.inp2{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.inp4{
+    margin-top: 10px;
+    margin-left: 42px;
+    margin-bottom: 10px;
+}
+.butt{
+    padding: 10px 10px;
+    background-color: rgb(218, 228, 213);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.divwid{
+    width: 200px;
+    padding: 14px 14px;
+    border-radius: 30px;
+    
+}
+.divwid :hover{
+    background-color: black;
+    color: white;
+}
+.btn-div{
+   display: flex;
+   justify-content: space-around;
+   
+}
